@@ -15,6 +15,8 @@ int main(void) {
         cat = "Category Three Hurricane";
     else if (windSpeed >= 130 && windSpeed <= 156)
         cat = "Category Four Hurricane";
+    else if (windSpeed >= 157)
+        cat = "Category Five Hurricane";
     else
         cat = "Not a Hurricane";
 
